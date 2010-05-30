@@ -132,6 +132,7 @@ int process(void* arg){
 	             		delete tmp->value;
                 		delete tmp;
 			}
+			else prev_life = tmp;
             		
         	}
 
